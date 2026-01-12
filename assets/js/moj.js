@@ -3,7 +3,7 @@ let arrDealsIName=['Caribbean','Switzerland','France','Thailand'];
 let arrDealsIPop=['44.48 M','8.66 M','67.41 M','69.86 M'];
 let arrDealsILink=['caribbean','switzerland','france','thailand'];
 let arrDealsITer=['275.400 KM','41.290 KM','551.500 KM','513.120 KM'];
-let arrDealsIPrice=['$946.000','$1.100.200','$425.600','$165.450'];
+let arrDealsIPrice=['$950','$850','$650','$450'];
 let ispisDealsN="";
 for (let i = 1; i <= arrDealsIName.length; i++) {
     ispisDealsN+='<div id="top-banner-'+i+'" class="banner">'+
@@ -28,7 +28,7 @@ for (let i = 1; i <= arrDealsIName.length; i++) {
                             '</div>'+
                             '<div class="col-lg-3 col-sm-6 col-6">'+
                                 '<i class="fa fa-home"></i>'+
-                                '<h4><span>AVG Price:</span><br>'+arrDealsIPrice[i-1]+'</h4>'+
+                                '<h4><span>MIN Price:</span><br>'+arrDealsIPrice[i-1]+'</h4>'+
                             '</div>'+
                                 '<div class="col-lg-3 col-sm-6 col-6">'+
                                     '<div class="main-button">'+
@@ -71,7 +71,7 @@ ispisDealsD+='<div class="col-lg-12">'+
                         '<ul class="info">'+
                           '<li><i class="fa fa-user"></i> '+arrDealsIPop[i-1]+' People</li>'+
                           '<li><i class="fa fa-globe"></i> '+arrDealsITer[i-1]+'</li>'+
-                          '<li><i class="fa fa-home"></i> '+arrDealsIPrice[i-1]+'</li>'+
+                          '<li><i class="fa fa-home"></i> '+arrDealsIPrice[i-1]+' MIN Price</li>'+
                         '</ul>'+
                         '<div class="text-button">'+
                           '<a href="'+arrDealsILink[i-1]+'.html">Need Directions ? <i class="fa fa-arrow-right"></i></a>'+

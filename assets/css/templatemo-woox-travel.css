@@ -370,7 +370,7 @@ Header Style
 }
 
 .header-area .main-nav .logo img {
-  width: 159px;
+  width: 250px;
   margin-top: 15px;
 }
 
@@ -1131,30 +1131,64 @@ footer p a:hover {
 
 /* 
 ---------------------------------------------
-About Page Style
+
 --------------------------------------------- 
 */
 
 .about-main-content {
   margin-top: 70px;
-  background-image: url(../images/about-content-bg.jpg);
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
   padding: 130px 0px 200px 0px;
 }
+.about-main-contentCaribbean {
+  background-image: url(../images/caribbean1.jpg);
+}
+.about-main-contentSw {
+  background-image: url(../images/switzerland1.jpg);
+}
+.about-main-contentFr {
+  background-image: url(../images/france1.jpg);
+}
+.about-main-contentThai {
+  background-image: url(../images/Thailand1.jpg);
+}
+.about-main-contentAbout {
+  background-image: url(../images/about1.jpg);
+}
+.about-main-contentAut {
+  background-image: url(../images/Authorbg.jpg);
+}
 
 .blur-bg {
 	width: 100%;
   height: 100%;
-  background: url(../images/about-content-bg.jpg) no-repeat center center fixed;
   background-size: cover;
   filter: blur(8px) brightness(80%);
   position: absolute;
   left: 0;
   top: 0;
   z-index: 1;
+}
+.blur-bgCaribbean {
+  background: url(../images/caribbean1.jpg) no-repeat center center fixed;
+}
+.blur-bgSw {
+  background: url(../images/switzerland1.jpg) no-repeat center center fixed;
+}
+.blur-bgFr {
+  background: url(../images/france1.jpg) no-repeat center center fixed;
+}
+.blur-bgThai {
+  background: url(../images/Thailand1.jpg) no-repeat center center fixed;
+}
+.blur-bgAbout {
+  background: url(../images/about1.jpg) no-repeat center center fixed;
+}
+.blur-bgAut {
+  background: url(../images/Authorbg.jpg) no-repeat center center fixed;
 }
 
 .about-main-content .content {
@@ -1349,7 +1383,7 @@ About Page Style
   margin-bottom: 10px;
 }
 
-.weekly-offers .item .thumb .text ul li:first-child {
+.weekly-offers .item .thumb{
   color: #fff;
   font-weight: 600;
 }
@@ -2145,7 +2179,7 @@ Reservation Page Style
   color: #afafaf;
 }
 
-.reservation-form #reservation-form input,
+.reservation-form #reservation-form .in,
 .reservation-form #reservation-form select {
   width: 100%;
   height: 46px;
@@ -2182,8 +2216,38 @@ Reservation Page Style
 .reservation-form #reservation-form button:hover {
   opacity: 0.8;
 }
-
-
+.cities{color: #afafaf;}
+#timer{color: red;}
+.dealsItm{
+  margin-right: 30px;
+  color: #afafaf;
+}
+.dealImg{
+  position: relative;
+  left: 15px;
+  width: 75% !important;
+  border-radius: 23px;
+  margin: 15px;
+}
+#dealID .owl-carousel.owl-loaded{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+  }
+button.owl-prev span,button.owl-next span{
+    border-radius: 50%;
+    display: block;
+    width: 20px;
+    background-color: white;
+    color: red;
+    margin-bottom: 5px;
+}
+.aut{
+  width: 60%;
+  position: relative;
+  left: 200px;
+}
 
 /* 
 ---------------------------------------------
